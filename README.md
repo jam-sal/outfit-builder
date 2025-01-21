@@ -1,6 +1,6 @@
 # Outfit Builder (WIP)
 
-A place to uploab photos of your clothes to create outfit ideas without needing to ransack your closet
+A simple place to uploab photos of your clothes to create outfit ideas without needing to ransack your closet
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
