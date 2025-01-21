@@ -1,0 +1,120 @@
+body {
+  font-family: 'Yusei Magic', Arial, sans-serif;
+  background-color: #fff9f0;
+}
+
+header li {
+  display: inline;
+  margin: 0 1rem;
+  margin-left: .25rem;
+  margin-right: 1rem;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  color: #c1566a;
+  background-color: #f7cfda;
+  padding: 1em;
+  margin: 1em;
+  cursor: pointer;
+}
+
+nav.navbar {
+  position: static;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #FFF1E6;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.header {
+  font-family: 'Yusei Magic', Arial, sans-serif;
+  font-size: 25px;
+  color: #c1566a;
+  transition: all 0.3s ease-in-out;
+}
+
+.brand {
+  font-size: 60px;
+  text-decoration: none;
+  margin-right: 30px;
+  background: linear-gradient(to right, #86b9d8, #d696a7, #e8a816);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.nav-menu {
+  display: flex;
+  align-items: left;
+  list-style: none;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+
+.nav-item {
+  margin-right: 1em;
+  margin-top: 1.8em;
+  margin-bottom: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-item a:hover {
+  color: #86b9d8;
+  text-shadow: 1px .8px 0.1px #263c4a;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #c1566a;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 1175px) {
+  .nav-menu {
+    margin-top: 40px;
+    margin-left: auto;
+    background-color: #FFF1E6;
+    position: fixed;
+    left: 100%;
+    top: 5rem;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 1px;
+    text-align: left;
+    transition: 0.4s;
+    box-shadow: 1px 1px 0.2px #f9e3bd;
+  }
+}
+
+
+  .nav-menu.active {
+    right: 0;
+    top: 5rem;
+    z-index: 1000;
+  }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
